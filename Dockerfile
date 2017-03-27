@@ -3,4 +3,4 @@ FROM ubuntu:xenial
 COPY . /src
 WORKDIR /src
 
-apt-get install python3
+RUN apt-get install python3
