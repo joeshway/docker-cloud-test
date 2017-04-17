@@ -20,7 +20,7 @@ class FlaskrTestCase(unittest.TestCase):
         rv = self.app.get('/')  
         # Search the page contents for the link to your topic page 
         # Replace xxxxxxxxxxxx with text you'd expect to see on your main pa$
-        assert b'Comuter' in rv.data 
+        assert b'Computer' in rv.data 
 
     def test_my_topic(self):
         # Replace '/' with the page path you want to make
