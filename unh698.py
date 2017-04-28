@@ -9,5 +9,9 @@ def mainRoute():
 def computer():
     return render_template('computer.html')
 
+@app.route('/new-page')
+def newPage():
+    return render_template('new-page.html')
+
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0', port=5000)
