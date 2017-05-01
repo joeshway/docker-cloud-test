@@ -1,3 +1,4 @@
+
 ---
 # The production version of docker-cloud-test should be the image that has just
 # a main page with the 'UNH698 Website' text.  This version of the website
@@ -7,7 +8,7 @@
   become: true
   vars:
     unh698_environment: production
-    unh698_image_version: release-0.0.4
+    unh698_image_version: release-0.0.5
     unh698_host_port: 8080
     unh698_container_port: 5000
   roles:
